@@ -106,6 +106,6 @@ This project is for educational purposes.
 
 ## Authors
 
-Daniel Igelnik
-Ranel Zissu
-Vita Preskovsky
+- Daniel Igelnik
+- Ranel Zissu
+- Vita Preskovsky
