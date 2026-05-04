@@ -99,6 +99,10 @@ CCFraudProject/
 │
 ├── DS_Project.ipynb         # Dataset load and EDA
 ├── Data_manipulation.ipynb  # Training models and conclusions.
+```
+## License
+
+This project is for educational purposes.
 
 ## Authors
 
