@@ -84,8 +84,10 @@ This project contains Google Colab notebooks and should be run from Google Colab
 
 The main notebooks are:
 
-- `DS_Project.ipynb` — main project notebook for EDA, model training, evaluation, and results.
-- `Data_manipulation.ipynb` — notebook for data loading, cleaning, preprocessing, and feature engineering.
+- `DataSet_analysis_EDA.ipynb` — main project notebook for EDA, model training, evaluation, and results.
+- `Training.ipynb` — notebook for data loading, cleaning, preprocessing, and feature engineering.
+- `Test_model.ipynb` - nobebook with test part of the dataset to test chosen model.
+- `help_functions.ipynb` - helper functions used by all other notebooks.
 
 To run the project:
 
@@ -97,8 +99,10 @@ To run the project:
 ```text
 CCFraudProject/
 │
-├── DS_Project.ipynb         # Dataset load and EDA
-├── Data_manipulation.ipynb  # Training models and conclusions.
+├── DataSet_analysis_EDS.ipynb         # Dataset load and EDA
+├── Training.ipynb                     # Training models and conclusions.
+├── Test_model.ipynb                   # Testing model on the test part of the dataset.
+├── help_functions.ipynb               # Helper functions.
 ```
 ## License
 
