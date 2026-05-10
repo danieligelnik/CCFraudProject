@@ -22,25 +22,26 @@ The main objectives of the project are:
 
 ## Dataset
 
-The project uses fraud detection dataset containing transaction-related information.
+The project uses dataset containing detailed credit cards transaction information.
 
-Dataset detailed information described in **DataSet_analysis_EDA.ipynb**, including:
+Dataset's information, statistical evaluation and graphical presentations are described in **DataSet_analysis_EDA.ipynb**, including:
 
 - Dataset source
 - Number of rows and columns
 - Description of important features
 - Target variable explanation
 - Class distribution between fraud and non-fraud cases
+- Correlations between different features
+- Feature importance
 
 ## Feature Engineering
 
 **Training.ipynb** contains python code which performs:
 
 - Feature engineering: handling categorials, additional columns for better training.
-- Feature selection: features that found not contributing to the model's training are removed.
+- Feature selection: features found not contributing to the model's training are removed.
 - Handling data imbalance: since the dataset is heavaly imbalanced additional handling was added to improve model's training.
 - Training a number of models to compare which model has the best perfomance with the dataset, especially recall score.
-- Dataset statistics: pre-training learning the features of the dataset, the connections beteween different features.
 
 ## Model Training
 Several machine learning models are trained and compared, such as:
