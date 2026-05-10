@@ -24,7 +24,7 @@ The main objectives of the project are:
 
 The project uses fraud detection dataset containing transaction-related information.
 
-Dataset detailed information described in **DS_project.ipynb**, including:
+Dataset detailed information described in **DataSet_analysis_EDA.ipynb**, including:
 
 - Dataset source
 - Number of rows and columns
@@ -34,16 +34,16 @@ Dataset detailed information described in **DS_project.ipynb**, including:
 
 ## Feature Engineering
 
-**Data_manipulation.ipynb** contains python code which performs:
+**Training.ipynb** contains python code which performs:
 
 - Feature engineering: handling categorials, additional columns for better training.
-- Feature selection.
-- Handling data imbalance
-- Training a number of models to compare which model has best perfomance with the dataset.
-- Dataset statistics.
+- Feature selection: features that found not contributing to the model's training are removed.
+- Handling data imbalance: since the dataset is heavaly imbalanced additional handling was added to improve model's training.
+- Training a number of models to compare which model has the best perfomance with the dataset, especially recall score.
+- Dataset statistics: pre-training learning the features of the dataset, the connections beteween different features.
 
 ## Model Training
-Several machine learning models will be trained and compared, such as:
+Several machine learning models are trained and compared, such as:
 
 - Logistic Regression
 - Decision Tree
@@ -53,7 +53,7 @@ Several machine learning models will be trained and compared, such as:
 
 ## Model Evaluation
 
-The models will be evaluated using metrics suitable for imbalanced classification problems.
+The models are evaluated using metrics suitable for imbalanced classification problems.
 
 Possible evaluation metrics:
 - Accuracy
@@ -65,6 +65,10 @@ Possible evaluation metrics:
 - Precision-Recall Curve
 
 Since fraud detection is usually an imbalanced classification problem, accuracy alone is not enough. Recall, precision, F1-score, and ROC-AUC are especially important.
+
+## Model testing
+
+The chosen model XGBoost is tested with the test portion of the dataset in **Test_model.ipnb**
 
 ## Technologies Used
 
